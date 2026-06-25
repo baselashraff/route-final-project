@@ -10,10 +10,14 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-st.title("Job Salary Prediction App")
-st.write("This app predicts job salaries based on various features such as experience, education level, job title, location, certifications, and skills count.")
-if st.button("Predict Salary"):
-    pass
+st.set_page_config(
+    page_title="Job Salary Predictor",
+    page_icon="💰",
+    layout="wide"
+)
+
+st.title("💰 Job Salary Prediction App")
+st.write("Predict employee salaries using machine learning.")
 
 
 
